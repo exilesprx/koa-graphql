@@ -1,0 +1,19 @@
+{
+  "name": "koq-graphql",
+  "version": "1.0.0",
+  "main": "app.js",
+  "author": "Exilesprx",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^6.2.0",
+    "graphql": "^14.1.1",
+    "koa": "^2.7.0",
+    "koa-graphql": "^0.8.0",
+    "koa-mount": "^4.0.0",
+    "mongoose": "^5.4.13",
+    "nodemon": "^1.18.10"
+  },
+  "scripts": {
+    "start": "nodemon app.js"
+  }
+}
